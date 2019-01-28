@@ -1,0 +1,28 @@
+
+/*
+  Import the common theme.
+*/
+@import "./_shared/scss/theme.scss";
+
+/*
+  If you need some CSS for any reason you can put it here.
+*/
+
+button {
+  border: 1px solid black;
+  width: 30px;
+  height: auto;
+  border-radius: 7px;
+  margin: 0px 2px;
+}
+
+.textBox {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  height:30px;
+  margin: 5px 0px;
+  padding-left: 6px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
